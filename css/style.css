@@ -1,0 +1,746 @@
+@charset "utf-8";
+
+/* 공통 */
+.container{
+    padding: 0 16px;
+}
+
+/* 화살표 */
+.arr-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border: 1px solid #33333350;
+    border-radius: 48px;
+    margin: 14px 0;
+    margin-bottom: 146px;
+}
+
+/* 로그인 */
+
+.logon-arr{
+    margin-left: 14px;
+}
+
+.login_wrap .logo-box{
+    text-align: center;
+}
+
+.login_wrap .logo-box img{
+    margin-bottom: 20px;
+}
+
+.login_wrap .logo-box>p:first-of-type{
+    font-size: 18px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    margin-bottom: 2px;
+}
+
+.login_wrap .logo-box>p:last-of-type{
+    font-size: 14px;
+    letter-spacing: -1px;
+    font-weight: 400;
+    color: #33333360;
+    margin-bottom: 50px;
+}
+
+.login_wrap .kakao-btn{
+    background: #FEE500;
+    margin: 0 32px;
+    padding: 18px 22px;
+    border-radius: 48px;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    font-weight: 600;
+    margin-bottom: 14px;
+}
+
+.login_wrap .kakao-btn a img{
+    width: 30px;
+}
+
+.login_wrap .join{
+    font-size: 12px;
+    letter-spacing: -1px;
+    font-weight: 4600;
+    text-align: center;
+}
+
+.login_wrap .join>a{
+    color: #2F80ED;
+}
+
+
+/* 회원가입1 */
+.join-wrap h2{
+    margin-top: 76px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 28px;
+    letter-spacing: -2px;
+}
+
+.join-wrap .form-group .form-list{
+    margin-bottom: 20px;
+}
+
+.join-wrap .form-group .form-list label{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    letter-spacing: -1px;
+    margin: 10px 0;
+    font-weight: 500;
+}
+
+.join-wrap .form-group .form-list input{
+    margin-top: 6px;
+    padding: 15px 20px;
+    border: 1px solid #33333315;
+    border-radius: 10px;
+}
+
+.join-wrap .form-group .check-group label{
+    display: flex;
+    font-size: 13px;
+    color: #33333350;
+    padding: 0 20px 0 0 ;
+    letter-spacing: -1px;
+}
+
+.join-wrap .form-group .check-group label:last-child{
+    margin-bottom: 60px;
+}
+
+.join-wrap .form-group button{
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background: #2F80ED;
+    border-radius: 10px;
+    margin-bottom: 28px;
+}
+
+
+/* 회원가입2 */
+
+.join-wrap2 h4{
+    margin-top: 46px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: -2px;
+}
+
+.join-wrap2 .search-box .input-box{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    background: #33333310;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.join-wrap2 .search-box .input-box img{
+    /* width: calc(100% - 24px); */
+    margin-left: 14px;
+}
+
+.join-wrap2 .search-box .input-box input{
+    /* width: calc(100% - 24px); */
+    width: 100%;
+    padding: 20px 20px;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.join-wrap2 .job-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.join-wrap2 .job-list .job-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #33333350;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.join-wrap2 .job-list .job-box p{
+    font-size: 13px;
+}
+
+.join-wrap2 button{
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background: #2F80ED;
+    border-radius: 10px;
+    margin-bottom: 28px;
+}
+
+
+/* 회원가입3 */
+
+.join-wrap3 h4{
+    margin-top: 46px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: -2px;
+}
+
+.join-wrap3 .search-box .input-box{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    background: #33333310;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.join-wrap3 .search-box .input-box img{
+    /* width: calc(100% - 24px); */
+    margin-left: 14px;
+}
+
+.join-wrap3 .search-box .input-box input{
+    /* width: calc(100% - 24px); */
+    width: 100%;
+    padding: 20px 20px;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.join-wrap3 .job-list{
+    display: flex;
+    flex-direction: column;
+}
+
+.join-wrap3 .job-list .job-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    border: 1px solid #33333350;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.join-wrap3 .job-list .job-box p{
+    font-size: 13px;
+}
+
+.join-wrap3 button{
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background: #2F80ED;
+    border-radius: 10px;
+    margin-bottom: 28px;
+}
+
+
+/* 회원가입4 */
+
+.join-wrap4 h4{
+    margin-top: 46px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: 300;
+    letter-spacing: -2px;
+}
+
+.join-wrap4 .search-box .input-box{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    background: #33333310;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.join-wrap4 .search-box .input-box img{
+    /* width: calc(100% - 24px); */
+    margin-left: 14px;
+}
+
+.join-wrap4 .search-box .input-box input{
+    /* width: calc(100% - 24px); */
+    width: 100%;
+    padding: 20px 20px;
+    border: none;
+    background: transparent;
+    outline: none;
+}
+
+.join-wrap4 .lang-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.join-wrap4 .lang-list .lang{
+    padding: 10px 12px;
+    border: 1px solid #33333350;
+    border-radius: 48px;
+    margin-bottom: 10px;
+}
+
+.join-wrap4 .lang-list .lang:not(:last-child){
+    margin-right: 10px;
+}
+.join-wrap4 button{
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    background: #2F80ED;
+    border-radius: 10px;
+    margin-bottom: 28px;
+    margin-top: 220px;
+}
+
+
+/* main */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px 0;
+}
+
+header .logo{
+    background-image: url("../img/LOGO.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: auto;
+    /* 텍스트 숨김 처리 */
+    color: transparent;
+}
+
+header .hammenu{
+    position: relative;
+    width: 44px;
+    height: 44px;
+    border: 1px solid #33333350;
+    border-radius: 48px;
+}
+
+header .hammenu .line{
+    display: block;
+    width: 50%;
+    height: 2px;
+    background:#000;
+    margin-bottom: 6px;
+}
+
+header .hammenu .line:nth-child(1){
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%, -30%);
+    margin-bottom: 6px;
+}
+
+header .hammenu .line:nth-child(2){
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 6px;
+}
+
+header .hammenu .line:nth-child(3){
+    position: absolute;
+    top:70%;
+    left:50%;
+    transform: translate(-50%, -70%);
+    margin-bottom: 6px;
+}
+
+main .ad{
+    padding: 34px 76px;
+    background: #2F80ED;
+    border-radius: 10px;
+    color: #fff;
+    margin: 40px 0 20px;
+    font-size: 14px;
+    text-align: center;
+}
+
+main .search-box{
+    background: #F5F5F5;
+    padding: 12px 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+main .search-box .input-box input{
+    border: none;
+    outline: none;
+    background: transparent;
+    margin-left: 12px;
+}
+
+main .btngroup{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+main .btngroup button{
+    width: 100%;
+    height: auto;
+    padding: 10px 26px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: #BDBDBD;
+    border: 1px solid #BDBDBD30;
+}
+
+main .btngroup button:first-child{
+    background: #333333;
+    color: #fff;
+}
+
+main .btngroup button:not(:last-child){
+    margin-right: 15px;
+}
+
+main .contentgroup{
+}
+
+main .contentgroup>a{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #BDBDBD;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    padding: 20px 14px 14px;
+}
+
+main .contentgroup .category{
+    width: 66px;
+    background: #2F80ED;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 4px;
+    margin-bottom: 12px;
+}
+
+main .contentgroup .tit{
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin-bottom: 26px;
+}
+
+main .contentgroup .bottomgroup,
+main .contentgroup .bottomgroup .leftbox,
+main .contentgroup .bottomgroup .rightbox,
+main .contentgroup .bottomgroup .rightbox .comment,
+main .contentgroup .bottomgroup .rightbox .inquiry{
+    display: flex;
+    flex-direction: row;
+}
+
+main .contentgroup .bottomgroup{
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+main .contentgroup .bottomgroup .leftbox p{
+    background: #BDBDBD30;
+    color: #BDBDBD;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 4px;
+    margin-bottom: 12px;
+}
+
+main .contentgroup .bottomgroup .leftbox p:not(:last-child){
+    margin-right: 8px;
+}
+
+main .contentgroup .bottomgroup .rightbox .comment{
+    margin-right: 10px;
+}
+
+main .contentgroup .bottomgroup .rightbox .comment,
+main .contentgroup .bottomgroup .rightbox .inquiry{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+main .contentgroup .bottomgroup .rightbox .comment p,
+main .contentgroup .bottomgroup .rightbox .inquiry p{
+    font-size: 12px;
+    color: #333333;
+    font-weight: 600;
+}
+
+main .contentgroup .bottomgroup .rightbox .comment img,
+main .contentgroup .bottomgroup .rightbox .inquiry img{
+    width: 60%;
+    margin-right: 4px;
+}
+
+main .page_wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* detail1 */
+.container .arr-icon{
+    margin-bottom: 50px;
+}
+
+.detail-wrap{
+    border:1px solid #BDBDBD;
+    margin: 50px 0;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+
+.detail-wrap .top-box .tit-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.detail-wrap .top-box .tit-box p{
+    width: 66px;
+    background: #2F80ED;
+    color: #fff;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 4px;
+    margin-bottom: 12px;
+}
+
+.detail-wrap .top-box .tit-box p:first-child{
+    margin-right: 2px;
+}
+
+.detail-wrap .top-box h4{
+    text-align: center;
+    letter-spacing: -1px;
+    padding: 0 40px;
+    margin-bottom: 6px;
+}
+
+.detail-wrap .top-box .username{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.detail-wrap .top-box .username p{
+    font-size: 12px;
+    color: #BDBDBD;
+}
+
+.detail-wrap .top-box .username p:first-child{
+    margin-right: 2px;
+    margin-bottom: 30px;
+}
+
+.detail-wrap .top-box>p{
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: -1px;
+    line-height: 1.4;
+    margin-bottom: 6px;
+}
+
+.detail-wrap .top-box .langtag{
+    margin-bottom: 24px;
+}
+
+.detail-wrap .top-box .langtag span{
+    width: 100%;
+    font-size: 12px;
+    background: #BDBDBD30;
+    color: #BDBDBD;
+    border-radius: 6px;
+    padding: 4px;
+    margin-bottom: 12px;
+}
+
+.detail-wrap .top-box .comment{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.detail-wrap .top-box .comment input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #BDBDBD;
+    margin-right: 4px;
+    outline: none;
+    font-size: 14px;
+}
+
+.detail-wrap .top-box .comment button{
+    width: 80px;
+    padding: 14px;
+    background: #2F80ED50;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.detail-wrap .bottom-box{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #BDBDBD;
+    border-radius: 20px;
+    padding: 14px;
+}
+
+.detail-wrap .bottom-box .user-box{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 6px;
+}
+
+.detail-wrap .bottom-box .user-box .users{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 6px;
+}
+
+.detail-wrap .bottom-box .user-box .users .user-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.detail-wrap .bottom-box .user-box .users .user-info .name{
+    margin-right: 6px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.detail-wrap .bottom-box .user-box .users .user-info .time{
+    font-size: 14px;
+    color: #BDBDBD;
+}
+
+.detail-wrap .bottom-box .user-box .users>p{
+    font-size: 13px;
+    letter-spacing: -1px;
+}
+
+.detail-wrap .bottom-box .user-box .img-box{
+    width: 40%;
+}
+
+.detail-wrap .bottom-box .user-box .img-box img{
+    display: block;
+}
+
+.detail-wrap .bottom-box .reply-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: #BDBDBD;
+    font-size: 12px;
+}
+
+.detail-wrap .bottom-box .reply-box .like{
+    margin-right: 6px;
+}
+
+.detail-wrap .bottom-box .reply-box .like,
+.detail-wrap .bottom-box .reply-box .comment{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.detail-wrap>p{
+    font-size: 12px;
+    margin: 6px 0;
+    color: #BDBDBD;
+    margin-bottom: 16px;
+}
+
+.detail-wrap .rereply{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-radius: 20px;
+}
+
+.detail-wrap .rereply .img-box{
+    margin-right: 10px;
+}
+
+.detail-wrap .rereply .recomment{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.detail-wrap .rereply .recomment input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #BDBDBD;
+    margin-right: 4px;
+    outline: none;
+    font-size: 14px;
+}
+
+.detail-wrap .rereply .recomment button{
+    width: 80px;
+    padding: 14px;
+    background: #2F80ED50;
+    color: #fff;
+    border-radius: 10px;
+}
+
+/* detail-edit-wrap */
+.container .arr-icon{
+    margin-bottom: 50px;
+}
+
+.detail-edit-wrap{
+    border:1px solid #BDBDBD;
+    margin: 50px 0;
+    border-radius: 20px;
+    padding: 0 20px;
+}
