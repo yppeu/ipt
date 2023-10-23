@@ -1,5 +1,22 @@
 @charset "utf-8";
 
+/* 액션 */
+.non-click {
+    background-color: #BDBDBD30;
+    color: #fff;
+}
+
+.click {
+    width: 100%;
+    height: auto;
+    padding: 10px 26px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: #BDBDBD;
+    background-color: #333333;
+}
+
+
 /* 공통 */
 .container{
     padding: 0 16px;
@@ -426,8 +443,8 @@ main .btngroup>a{
 
 
 main .btngroup button:first-child{
-    background: #333333;
-    color: #fff;
+    background-color: #BDBDBD30;
+    color: #BDBDBD;
 }
 
 main .btngroup button:not(:last-child){
@@ -789,3 +806,4 @@ main .page_wrap{
     color: #fff;
     border-radius: 10px;
 }
+

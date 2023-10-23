@@ -39,9 +39,9 @@
                     </div>
                 </div>
                 <div class="btngroup">
-                    <button class="pm"><a href="index.html">PM/기획</a></button>
-                    <button class="design"><a href="./design_page.html">디자인</a></button>
-                    <button><a href="./development_page.html">개발</a></button>
+                    <button class="non-click" id="first"><a href="index.html">PM/기획</a></button>
+                    <button class="non-click" id="second"><a href="./design_page.html">디자인</a></button>
+                    <button class="non-click" id="third"><a href="./development_page.html">개발</a></button>
                 </div>
                 <div class="btngroup">
                     <a href="detail_edit.html">글쓰기</a>
@@ -172,5 +172,25 @@
             </main>
         </div>
     </div>
+
+    <script>
+        const nonClick = document.querySelectorAll(".non-click");
+
+        function handleClick(event) {
+            // div에서 모든 "click" 클래스 제거
+            nonClick.forEach((e) => {
+                e.classList.remove("click");
+            });
+            // 클릭한 div만 "click"클래스 추가
+            event.target.classList.add("click");
+
+            // 이벤트의 기본 동작 중지
+            event.preventDefault();
+        }
+
+        nonClick.forEach((e) => {
+            e.addEventListener("click", handleClick);
+        });
+    </script>
 </body>
 </html>
